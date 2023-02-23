@@ -5,7 +5,7 @@ const Projects = () => {
     return (
         <>
             <Breadcrumbs main={'PROJECTS'}
-                img={{ backgroundImage: "url('assets/img/project-bg.jpg')" }}
+                img={{ backgroundImage: "url('assets/img/pro/services_bg.jpg')" }}
                 pagename={'Projects'}
             />
             <section id="projects" className="projects">
@@ -15,10 +15,6 @@ const Projects = () => {
 
                         <ul className="portfolio-flters" data-aos="fade-up" data-aos-delay="100">
                             <li data-filter="*" className="filter-active">All</li>
-                            <li data-filter=".filter-remodeling">Remodeling</li>
-                            <li data-filter=".filter-construction">Construction</li>
-                            <li data-filter=".filter-repairs">Repairs</li>
-                            <li data-filter=".filter-design">Design</li>
                         </ul>
                         <div className="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
                             <div className="col-lg-4 col-md-6 portfolio-item filter-remodeling">

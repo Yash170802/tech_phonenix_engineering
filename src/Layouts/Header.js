@@ -7,7 +7,7 @@ const Hero = () => {
             <header id="header" className="header d-flex align-items-center">
                 <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
                     <a href="index.html" className="logo d-flex align-items-center">
-                        <h1>UpConstruction<span>.</span></h1>
+                        <h1>Tech Phoenix Engineering<span>.</span></h1>
                     </a>
                     <i className="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
                     <i className="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
