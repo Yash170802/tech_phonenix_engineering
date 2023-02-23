@@ -5,7 +5,7 @@ const Contact = () => {
     return (
         <>
             <Breadcrumbs main={'Contact Us'}
-                img={{ backgroundImage: "url('assets/img/contact_us.jpg')" }}
+                img={{ backgroundImage: "url('assets/img/pro/contact_s.jpg')" }}
                 pagename={'Contact'}
             />
             <section id="contact" className="contact">

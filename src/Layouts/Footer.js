@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -9,6 +10,8 @@ const Footer = () => {
                         <div className="col-lg-3 col-md-6">
                             <div className="footer-info">
                                 <h4>Tech Phoenix Engineering</h4>
+                                <p><i class="fa fa-map-marker" style={{ color: "white" }}></i>
+                                    <span> Location</span></p>
                                 <p>
                                     922, 17, Makarpura GIDC, Makarpura, <br />
                                     Vadodara, Gujarat 390010. <br /><br />
@@ -18,10 +21,10 @@ const Footer = () => {
                         <div className="col-lg-2 col-md-3 footer-links">
                             <h4>Useful Links</h4>
                             <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">Services</a></li>
-                                <li><a href="#">Terms of service</a></li>
+                                <li><Link to='/Hero'>Home</Link></li>
+                                <li><Link to='/About'>About</Link></li>
+                                <li><Link to='/Services'>Services</Link></li>
+                                <li><Link to='/Projects'>Projects</Link></li>
                             </ul>
                         </div>
                         <div className="col-lg-4 col-md-3 footer-links">
